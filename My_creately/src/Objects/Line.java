@@ -66,7 +66,7 @@ public class Line extends Drawing{
 		circle_end = new Ellipse2D.Double(m_xEnd, m_yEnd, 10, 10);
 		
 	//	g.fillOval((int) circle_start.x, (int) circle_start.y, (int) circle_start.width, (int)  circle_start.height);
-		g.fillOval((int) circle_end.x, (int) circle_end.y, (int) circle_start.width, (int)  circle_start.height);
+	//	g.fillOval((int) circle_end.x, (int) circle_end.y, (int) circle_start.width, (int)  circle_start.height);
 	}
 
 	public Rectangle getM_rect1() {
