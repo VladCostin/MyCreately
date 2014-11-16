@@ -1,12 +1,5 @@
 package UMLObject;
 
-import java.awt.geom.Ellipse2D;
-
-import Objects.InterfaceDraw;
-import Objects.Rectangle;
-
-
-
 /**
  * the data which defines a line
  * @author Vlad Herescu
@@ -56,10 +49,6 @@ public class LineData extends UMLDataAbstract
 		return m_rect2;
 	}
 
-	public void setM_rect2(InterfaceDraw m_rect2)
-	{
-		this.m_rect2 = (RectangleData) m_rect2;	
-	}
 
 	public int getM_xEnd() {
 		return m_xEnd;
